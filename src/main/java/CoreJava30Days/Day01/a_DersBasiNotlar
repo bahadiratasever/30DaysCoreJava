@@ -1,0 +1,64 @@
+PRIMITIVE & NON-PRIMITIVE
+-------------------------
+PRIMITIVE:
+-Basit ve doğrudan değerleri temsil eder ve bellekte sabit bir boyutta tutulur.
+-Primitive veri tipleri 8 adettir;
+1-byte | 8 bit | -128 ile +127 = tam sayı
+2-short | 16 bit | -32 bin ile +32 bin = tam sayı
+3-int | 32 bit | -2 milyar ile +2 milyar = tam sayı
+4-long | 64 bit | çok daha büyük sayılar = tam sayı
+5-float | 32 bit ondalık sayılar
+6-double | 64 bit ondalık sayılar
+7-char | 16 bit | karakterleri saklamak için kullanılır. | ASCII kod yapısı ile bağlantılıdır.
+Örneğin: char chr1 = 65;
+         char chr2 = 'A'; //değişkenlerinin ikiside sout ile 'A' çıktısı verir.
+8-boolean | mantıksal değerleri saklamak için kullanılır | true veya false çıktısı verir.
+
+/* Primitive data tipleri performans açısından daha iyidir çünkü sabit boyutları vardır.*/
+
+--------------------------
+
+NON-PRIMITIVE:
+-Nesne tabanlı türlerdir.
+-Değerleri doğrudan içermezler, bellekte bir nesnenin referansını tutarlar.
+
+Non-Primitive veri türleri şunları içermektedir:
+1-String     : Metinler için kullanılır
+2-Array      : Diziler için kullanılır
+3-Class      : Sınıflar için kullanılır. Nesne tabanlı programlamanın temel yapı taşıdır
+4-Interface  : Arayüzler için kullanılır
+5-Enum       : Özellikle belirli bir sabit değer kümesini ifade etmek için kullanılır
+6-Object     : Tüm nesneler için kullanılır
+
+
+Primitive / Non-Primitive Tipleri arasında ki bazı temel farklar:
+
+|Primitive(P)|   |Non-Primitive(NP)|
+
+(P)-Java tarafından oluşturulmuştur.
+(NP)-Java tarafından oluşturulmuş hazır yapılar ve kendi oluşturabileceğimiz özel yapılar ile birlikte kullanılabilir.
+
+(P)-Veri tipi isimleri küçük harfle yazılır int, byte, short long vb.
+(NP)-Veri tipi isimleri büyük harfle başlar String, Array vb.
+
+(P)-Hafızada kapladıkları alan sabittir.
+(NP)-Hafızada kapaladıkları alan dinamiktir, veri tiplerine ve büyüklüklerine göre değişiklik gösterir.
+
+(P)-Değer tanımlamadan tip tanımı yapılabilir, fakat değeri olmadan kullanımı gerçekleştirilemez.
+(NP)-Değer tanımlanmadan null olarak kullanılabilir.
+
+---------------------------
+
+Primitive Veri Tipleri İle İlgili Sorular:
+
+    Java'nın temel primitive veri tipleri nelerdir?
+        Cevap: byte, short, int, long, float, double, char, boolean
+
+    float ve double arasındaki fark nedir?
+        Cevap: float 32 bit uzunluğunda, double ise 64 bit uzunluğundadır. double daha fazla hassasiyet sağlar.
+
+    char veri tipi hangi değerleri tutabilir?
+        Cevap: char, 16 bit uzunluğunda bir karakteri temsil eder. Unicode karakter setindeki herhangi bir karakteri tutabilir.
+
+    Java'da boolean veri tipi ne işe yarar?
+        Cevap: boolean, sadece iki değeri olan true ve false mantıksal değerlerini temsil eder.

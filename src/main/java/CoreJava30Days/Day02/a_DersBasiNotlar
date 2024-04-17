@@ -1,0 +1,24 @@
+-Operatörlerin nasıl kullanılacağı ve hangi bağlamlarda kullanılacağı, Java programlamada temel bir anlayış
+ oluşturmak için önemlidir.
+-Ayrıca, operatörlerin yanlış kullanımının hatalara ve beklenmeyen sonuçlara yol açabilir.
+
+    Aritmetik Operatörler:
+        Toplama (+), çıkarma (-), çarpma (*), bölme (/) ve mod (kalan) alma (%) operatörleri aritmetik işlemler
+        için kullanılır.
+
+    Atama Operatörleri:
+        Değişkenlere değer atamak için kullanılır. Örneğin, = (atama), += (toplama ve atama), -= (çıkarma ve atama) gibi.
+
+    Karşılaştırma Operatörleri:
+        İki değeri karşılaştırmak için kullanılır. Örneğin, == (eşit mi), != (eşit değil mi), > (büyük mü), < (küçük mü),
+        >= (büyük veya eşit mi), <= (küçük veya eşit mi) gibi.
+
+    Mantıksal Operatörler:
+        Mantıksal işlemler yapmak için kullanılır. Örneğin, && (ve), || (veya), ! (değil) gibi.
+
+    Artırma ve Azaltma Operatörleri:
+        Değişkenin değerini artırmak veya azaltmak için kullanılır. Örneğin, ++ (bir arttırma), -- (bir azaltma) gibi.
+
+    Koşullu Operatör (Ternary Operatörü):
+        Üç operand alan tek operatördür. Bir koşul ifadesini değerlendirir ve sonuca bağlı olarak iki farklı ifadeyi
+        döndürür. Örneğin, condition ? expr1 : expr2 gibi.
